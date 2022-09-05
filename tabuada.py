@@ -14,6 +14,7 @@ for n1 in numeros:
     print("#" * width)
     print()
     print("{:^18}".format(f"Tabuada do {n1}"))
+    #print("{:^"+str(width)+"}".format(f"Tabuada do {n1}"))
     print()
     for n2 in numeros:
         resultado = n1 * n2
